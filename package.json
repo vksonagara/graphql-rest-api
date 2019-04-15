@@ -1,0 +1,21 @@
+{
+  "name": "graphql-rest-api",
+  "version": "1.0.0",
+  "description": "An API implementation using REST and GraphQL",
+  "main": "index.js",
+  "author": "vinod kumar sonagara",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.4.8",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.2.1",
+    "graphql-tools": "^4.0.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.4.22"
+  }
+}
